@@ -9,7 +9,8 @@
     "nib": "*",
 "mongoose":"*",
 "passport":"*",
-"passport-google-oauth":"*"
+"passport-google-oauth":"*",
+"winston":"*"
   }
 }
 

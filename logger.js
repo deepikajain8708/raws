@@ -1,5 +1,5 @@
 var winston = require('winston');
-var bdp = require('./config/config.js').config['BASE_DATA_PATH'];
+var bdp = require('./config/config.js').cfg['BASE_DATA_PATH'];
 winston.add(winston.transports.File, { filename: bdp+'raws.log',maxsize:(1024*1000*10),maxFiles:10});
 //winston.remove(winston.transports.Console);
 

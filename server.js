@@ -1,7 +1,7 @@
 var express = require('express'),mongoose = require('mongoose')
   , passport = require('passport'),Schema = mongoose.Schema
   , util = require('util'),stylus = require('stylus'),nib=require('nib')	
-  , GoogleStrategy = require('passport-google-oauth').OAuth2Strategy,logger= require('./logger.js'),
+  , GoogleStrategy = require('passport-google-oauth').OAuth2Strategy,logger= require('./logger.js')
 ,authhelper = require('./auth/authhelper.js'),router = require('./router.js');
 
 

@@ -1,4 +1,4 @@
-var authhelper = require('./auth/authhelper.js'),logger=require('logger.js');
+var authhelper = require('./auth/authhelper.js'),logger=require('./logger.js');
 
 exports.setup = function(app){
 app.get('/', function(req, res){
